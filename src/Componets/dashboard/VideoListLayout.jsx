@@ -3,94 +3,94 @@ function VideoListLayout() {
   
   const [tileData, setTileData] = useState([
     {
-      thumb:'https://i.ytimg.com/vi/OORUHkgg4IM/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'10:03',
-      logoDp:'https://yt3.googleusercontent.com/DRtVBjk2Noax94hHqr8yCcEjhNUhHRvyzBE3qS9WWilnE1-uQQNVnQd8mdG9h_IvNZCRApZSQw=s176-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
     {
-      thumb:'https://i.ytimg.com/vi/qOO6lVMhmGc/maxresdefault.jpg',
+      thumb:'https://desklog.io/wp-content/themes/desklog/assets/images/image-not-found.png',
       duration:'23:45',
-      logoDp:'https://yt3.googleusercontent.com/LrCNrwOMkNOpLKnRl0GgvIQOgo1mR90oXa1pjbuSRIRBT3_FMTYUbdEllsUTxt7Wq8-qPOdd=s160-c-k-c0x00ffffff-no-rj'
+      logoDp:'/images/Desklog-logo.png'
     },
   ]);
   return (
