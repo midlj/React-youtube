@@ -1,5 +1,5 @@
 import React from 'react'
-import MailLayout from './Componets/MailLayout'
+import MailLayout from './Componets/dashboard/MailLayout'
 import './assets/css/custom.css'
 function App() {
   return (
