@@ -4,10 +4,15 @@ import VideoListLayout from './VideoListLayout';
 
 function MailLayout() {
   const [toggleMenu,setToggle] = useState(false);
+  const [toggleMod,setToggleMod] = useState(false);
+  const handleLightDarkMOd=()=>{
+    setToggleMod(!toggleMod);
+      toggleMod ? localStorage.setItem('displayMod','Dark'): localStorage.setItem('displayMod','light');
+  }
   useEffect(() => {
-    console.log(toggleMenu);
-    
-  }, [toggleMenu]);
+     let displayMod = localStorage.getItem('displayMod');
+     displayMod === 'Dark' ? document.body.classList.add("dark-mode") : document.body.classList.remove("dark-mode");
+  }, [toggleMod]);
   return (
 <>
 <div className={!toggleMenu ? "sidebar-hidden" : ""}>
@@ -48,7 +53,7 @@ function MailLayout() {
           <button className="nav-button search-button">
             <i className="uil uil-search" />
           </button>
-          <button className="nav-button theme-button">
+          <button className="nav-button theme-button" onClick={handleLightDarkMOd}>
             <i className="uil uil-moon" />
           </button>
           <img src="/images/user.jpg" alt="User Image" className="user-image" />
